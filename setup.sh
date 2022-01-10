@@ -38,6 +38,7 @@ function install_ansible() {
     fi
 }
 
+#Adding homebrew to PATH
 echo "PATH="$PATH
 export PATH=$PATH:/opt/homebrew/bin
 
